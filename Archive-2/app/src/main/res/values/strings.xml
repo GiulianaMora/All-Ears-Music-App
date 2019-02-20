@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">All Ears Music </string>
+    <string name="main_description">In the main screen the user can click on 3 different categories: search lyrics, browse songs, or sing it. When the user clicks on the Search Lyrics category, the user is redirected to the  SearchActivity page. When the user clicks on the Browse Songs category, the user is redirected to the BrowseActivity page. When the user clicks on the Sing It category, the user is redirected to the  SingActivity page. </string>
+    <string name="category_search">Search</string>
+    <string name="category_browse">Browse</string>
+    <string name="category_shop">Shop</string>
+    <string name="category_sing">Sing</string>
+    <string name="sing_textview">Sing</string>
+    <string name="search_songs_button">Search</string>
+    <string name="search_songs_input">Enter Song to Sing</string>
+    <string name="category_search_results">Search Results</string>
+    <string name="category_browse_results">Browse Results</string>
+    <string name="category_now_playing">Now Playing</string>
+    <string name="stop_button">Stop</string>
+    <string name="play_button">Play</string>
+    <string name="pause_button">Pause</string>
+    <string name="next_button">Next</string>
+    <string name="shop_button">Shop</string>
+    <string name="song_title">Song Title</string>
+    <string name="album_title">Album Title</string>
+    <string name="purchase_description">In this screen the user can purchase a song to download. In order to do this add external library, Stripe docs. This will handle payment processing, recurring billing, or saving for later use (from an Android app). To install the Stripe Android library (need Android and IntelliJ), add code to build.gradle file inside the dependencies section. To get payment details of the user (which includes credit card number, expiration date, and CVC code) use Stripe built-in card input widget (add code to activity_layout.xml, MyActivity.java, and ask for card object. Other data such as name, address, zip of customer can be added to input controls of layout and add directly to card object). Finally, copy Stripe external file to libs folder and payment should function properly.</string>
+    <string name="search_results_description">In this screen the user can view their search results. Clicking the artist button will redirect the user to the Now Playing page, where the user can listen to the song. </string>
+    <string name="browse_results_description">In this screen the user can view their browse results using Spotify. </string>
+    <string name="sing_results_description">In this screen the user can view their search results for a song to sing using Karaoke Online. </string>
+    <string name="sing_description">In this screen the user can search for a song they would like to sing karaoke style. The search button redirects the user to Karaoke Online, where they can sing the song they searched for. </string>
+    <string name="browse_description">In this screen the user can search for a song if they already know the song title. The browse button redirects the user to Spotify, to see the browse results.</string>
+    <string name="search_description">In this screen the user can find their favorite songs (without the song title) by typing in the lyrics in the space provided. The search button redirects the user to Musixmatch to see the search results.</string>
+    <string name="now_playing_description">In this screen the user can play the song that was chosen. The buttons allow the user to play, pause or go to the next song. The shop button redirects the user to an activity where they can purchase the song using Stripe.</string>
+</resources>

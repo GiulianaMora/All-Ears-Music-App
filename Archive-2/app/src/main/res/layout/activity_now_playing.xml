@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB86FC"
+    android:orientation="vertical"
+    tools:context=".NowPlayingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now Playing"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing_description"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@id/Selena_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/selena"
+        android:scaleType="centerCrop"
+        android:padding="5dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/play_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/play_button" />
+
+            <Button
+                android:id="@+id/pause_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/pause_button" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/next_button" />
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Song Title"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_centerInParent="true"
+                    android:layout_above="@+id/shop_button"
+                    android:layout_alignParentTop="true"/>
+
+                <Button
+                    android:id="@+id/shop_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/shop_button"
+                    android:textAllCaps="true" />
+
+            </RelativeLayout>
+</LinearLayout>

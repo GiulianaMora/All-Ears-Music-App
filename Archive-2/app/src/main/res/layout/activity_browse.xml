@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#BB86FC"
+    android:orientation="vertical"
+    tools:context=".BrowseActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/browse_description"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/browse_user_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Type In Artist or Song Title"
+            android:inputType="textCapWords"
+            android:gravity="left" />
+
+        <Button
+            android:id="@+id/browse_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Browse"
+            android:background="#FF0266"
+            android:textAllCaps="true"/>
+
+</LinearLayout>

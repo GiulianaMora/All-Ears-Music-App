@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="8dp"
+android:background="#BB86FC"
+android:orientation="vertical"
+tools:context=".SingActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sing_textview"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textAllCaps="true"
+    android:layout_margin="10dp"
+    android:textColor="@color/colorPrimaryDark"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sing_description"
+    android:layout_margin="10dp"/>
+
+<EditText
+    android:id="@+id/search_songs_input"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="@string/search_songs_input"
+    android:textColor="@color/colorPrimaryDark"
+    android:inputType="textCapWords"
+    android:gravity="left" />
+
+<Button
+    android:id="@+id/search_songs_button"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/search_songs_button"
+    android:background="#03DAC6"
+    android:textAllCaps="true"/>
+
+</LinearLayout>

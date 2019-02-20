@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.allearsmusicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/category_search" />
+        <activity
+            android:name=".BrowseActivity"
+            android:label="@string/category_browse" />
+        <activity
+            android:name=".ShopActivity"
+            android:label="@string/category_shop" />
+        <activity
+            android:name=".SingActivity"
+            android:label="@string/category_sing" />
+        <activity
+            android:name=".SearchResultsActivity"
+            android:label="@string/category_search_results" />
+        <activity
+            android:name=".BrowseResultsActivity"
+            android:label="@string/category_browse_results" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Now Playing" />
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="Purchase" />
+        <activity
+            android:name=".SingResults"
+            android:label="Sing It Results" />
+        <activity android:name=".SingResultsActivity"
+            android:label="Sing It Results"/>
+    </application>
+
+</manifest>

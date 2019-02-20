@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB86FC"
+    android:orientation="vertical"
+    tools:context=".NowPlayingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Results"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/browse_results_description"
+        android:layout_margin="10dp"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:background="#BB86FC"
+        tools:context=".BrowseResultsActivity">
+
+        <ImageView
+            android:id="@+id/Selena_cover"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/selena"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/song_title"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/Selena_cover"/>
+
+        <TextView
+            android:id="@+id/album_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album_title"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/Selena_cover"
+            android:layout_below="@id/song_title"/>
+
+        <Button
+            android:id="@+id/artist_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" More by this artist"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/Selena_cover"
+            android:layout_below="@id/album_title"/>
+
+     </RelativeLayout>
+
+</LinearLayout>

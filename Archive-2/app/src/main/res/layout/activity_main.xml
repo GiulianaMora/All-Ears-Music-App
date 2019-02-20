@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BB86FC"
+    tools:context="com.example.android.allearsmusicapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Ears Music"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_description"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:layout_margin="15dp"
+        android:text="  Search Lyrics"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#FFDE03"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:layout_margin="15dp"
+        android:text="  Browse Songs"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#FF0266"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/sing_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:layout_margin="15dp"
+        android:text="  Sing It"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#03DAC6"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+</LinearLayout>
