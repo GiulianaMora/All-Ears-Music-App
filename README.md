@@ -6,3 +6,5 @@ Fourth Udacity Project (Android Basics: Multi-Screen Apps) - Musical Structure
 ![alt text](https://user-images.githubusercontent.com/36802522/53209570-ba443980-35ef-11e9-9505-f84d8035060d.png)
 
 ![alt text](https://user-images.githubusercontent.com/36802522/53209678-1eff9400-35f0-11e9-8452-235e6e922361.png)
+
+![alt text](https://user-images.githubusercontent.com/36802522/53209777-6d149780-35f0-11e9-947e-b6b98eef1dc4.png)
